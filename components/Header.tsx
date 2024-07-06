@@ -44,11 +44,5 @@ const Header = () => {
     </header>
   )
 }
-# Den helig gral blog for a lære avansert norsk (Klar for C1 Norskprøven!)
-
-By [MIXA](https://diabolomika.com)
-
-[BLOG HOME](#home) [old posts](#old posts) [about](#about)
-
 
 export default Header

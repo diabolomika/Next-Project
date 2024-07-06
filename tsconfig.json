@@ -43,8 +43,3 @@
   ],
   "exclude": ["node_modules"]
 }
-JSON
-"scripts":{
-  "scripts": {
-  "dev": "next dev"
-}
