@@ -83,7 +83,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                             >
                               {author.twitter
                                 .replace('https://twitter.com/', '@')
-                                .replace('https://x.com/', '@')}
+                                .replace('https://x.com/diabolomika', '@')}
                             </Link>
                           )}
                         </dd>
@@ -100,7 +100,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                   Discuss on Twitter
                 </Link>
                 {` • `}
-                <Link href={editUrl(filePath)}>View on GitHub</Link>
+                <Link href={https://github.com/diabolomika(filePath)}>View on GitHub</Link>
               </div>
               {siteMetadata.comments && (
                 <div
