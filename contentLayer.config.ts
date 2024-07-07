@@ -24,7 +24,7 @@ import rehypePresetMinify from 'rehype-preset-minify'
 import siteMetadata from './data/siteMetadata'
 import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer.js'
 
-const root = process.cwd()
+const root = './'
 const isProduction = process.env.NODE_ENV === 'production'
 
 // heroicon mini link
