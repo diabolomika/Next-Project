@@ -10,7 +10,9 @@ images: ['/static/images/twitter-card.png']
 
 ## Introduction
 
-Welcome to the release of Tailwind Nextjs Starter Blog template v2.0. This release is a major refactor of the codebase to support Nextjs App directory and React Server Components. Read on to discover the new features and how to migrate from V1.
+Velkom! For å klare å oppnå B2- eller C1-nivå i norsk, må du jobbet målrettet og strukturert (helst fra første dag). Hvis du har hoert at du må gå på kurs for a 
+lære grammatikk for å oppnå skriftlig og muntlig B2- eller C1-nivå, det ikke helt riktig, det kommer an paa hvis du har noen som kan redigere skriving din.du kan bruker KI, en venn fra norge eller du betale noen som snakker norsk som morsmal og kan skrive paa akademisk nivaa!
+
 
 <TOCInline toc={props.toc} exclude="Introduction" />
 
@@ -18,9 +20,7 @@ Welcome to the release of Tailwind Nextjs Starter Blog template v2.0. This relea
 
 ![Github Traffic](/static/images/github-traffic.png)
 
-The template was first released in January 2021 and has since been used by thousands of users. It is featured on [Next.js Templates](https://vercel.com/templates/next.js/tailwind-css-starter-blog), [Tailwind Awesome](https://www.tailwindawesome.com/resources/tailwind-nextjs-starter-blog) among other listing sites. It attracts 200+ unique visitors daily notching 1500-2000 page views, with 1.3k forks and many other clones.
 
-Many thanks to the community of users and contributors for making this template a success! I created a small video montage of the blogs (while cleaning up the list in the readme) to showcase the diversity of the blogs created using the template and to celebrate the milestone:
 
 <video controls>
   <source
@@ -29,17 +29,30 @@ Many thanks to the community of users and contributors for making this template 
   />
 </video>
 
-Version 2 builds on the success of the previous version and introduces many new features and improvements. The codebase has been refactored to support Next.js App directory and React Server Components. Markdown / MDX is now processed using Contentlayer, a type-safe content SDK that validates and transforms your content into type-safe JSON data. It integrates with Pliny, a new library that provides out of the box Next.js components to enhance your static site with analytics, comments and newsletter subscription. A new command palette (⌘-k) search component is also added to the template.
+Fra b1 til C1 bør det være rundt 300 til 400 timers innsats - disse kan og må brukes på forskjellige måter:
+- se norske filmer/serier (i begynnelsen med undertekster)
+– Norsk musikk
+- skrive norske tekster (profesjonelle og private)
+- lese norske tekster og bøker
+- Snakk (snakk og skriv) på norsk med en som snakker norsk som morsmål!
+- Lær ordforråd, grammatikk og idiomer
+
+Så det kan definitivt gjøres på 1 til 2 år
+Jeg forbedrer norsken min ved å lese norske bøker. Jeg legger så inn ukjente ord i en ordbok for å lære. Noen ganger kjøper jeg bare lydbøker. Min venn John Nations sverger til Harry Potter-lydbøker. Hvis du vil gjøre ting litt enklere, er ungdomsbøker en god måte å ta steget fra A2 til B1, fordi de vanligvis ikke inneholder veldig vanskelig ordforråd. Ungdomsbøker egner seg imidlertid ikke godt til læring for C1.
+For tyskere  og nederlendere eller noen som snakker engelsk eller tysk paa C1 nivaa  vil du være på nivå B1 etter omtrent et år.  Som tysker har du flere problemer med riktig setningsstruktur fordi på tysk setter du verbet på slutten. 
+
+-- 
+null
 
 Let's dive into the new features and improvements in V2.
 
 ## Next.js App Directory and React Server Components
+Jeg begynte med dansk A1/A2 for mange år siden. Jeg var på universitetet og hadde akkurat vært på Island, Finland og Farøy og akkurat begynt. Siden jeg aldri kom på kurset på grunn av tidsnød, lærte jeg nesten alt fra boken og CD-en. Men jeg kunne egentlig ikke snakke så mye. Jeg prøvde også å lære meg finsk, men ga opp etter 3 uker og gikk over til fransk, noe jeg allerede til en viss grad kunne.
+Jeg var totalt 1 måned i Norge under studiene fordi jeg lærte meg langrenn. Men jeg snakket bare engelsk der. Først senere, etter å ha bodd i USA i 15 år, besøkte jeg familie i Norge.
+Jeg har forbedret norsken min ved å se mange serier (f.eks. Lilyhammer) på norsk. Hvis jeg ikke kan et ord, slår jeg det opp umiddelbart og skriver det ned i boken min. Dette gjør at jeg raskt kan lære meg nytt ordforråd, og fordi jeg hører norsk snakket på normalt språk hjelper det automatisk på grammatikken min.
 
-Now that [Next.js App router](https://nextjs.org/docs/app) is finally stable and is mostly feature compatible with Page Router, the codebase has been migrated to new setup. This allows for a hybrid rendering approach, with the use of React Server Components generated on the server side for faster page loads and smaller bundle sizes, while retaining the ability to sprinkle in client side React components for interactivity.[^1]
 
-With addition powers comes a [new paradigm](https://nextjs.org/docs/getting-started/react-essentials) to learn. I have migrated the codebase to make use of the new features as much as possible. This includes changes in the folder structure, splitting components into server vs client components, leveraging server side data fetching and using the recommended [Metadata](https://nextjs.org/docs/app/building-your-application/optimizing/metadata) API for SEO discoverability.
 
-While this simplifies the codebase to some extent, it makes migration from the old codebase more difficult. If you are looking to migrate, I recommend starting from a fresh template and copying over your customizations and existing content. See the [migration recommendations](#migration-recommendations) section for more details.
 
 ## Typescript First
 
