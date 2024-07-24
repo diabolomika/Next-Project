@@ -3,7 +3,7 @@ const projectsData = {
     {
       title: 'Skandinaviske Circus Prosjektet',
       description: `We have teamed up with Lars Spoere from Kragero Aktion Park to offer our circus workshop program at their location. For more information go to scandinaviskecircusprosjektet.org
-We rent their grounds for our circus project in a circustent. If you also want to operate a go-cart, you get a small discount if you run a circus workshop with DSS.`,
+We rent their grounds for the circus project in a circustent. The project is called The skandinavian circus Project and the park is about 2 km from E18 i retning Stabbestad. If you also want to operate a go-cart, you get a small discount if you run a circus workshop with DSS.`,
       imgSrc: '/static/images/google.png',
       href: 'https://www.google.com',
     },
