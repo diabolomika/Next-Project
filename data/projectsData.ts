@@ -9,7 +9,7 @@ We rent their grounds for our circus project in a circustent. If you also want t
     },
     {
       title: 'Translation services and webdsign',
-      description: `Are you looking for a dedicated, qualified and skilled translators who have a good eye for detail!
+      description: `Are you looking for dedicated, qualified and skilled translators who have a good eye for detail!
       shrinks from tight deadlines? Do you have a webdesign project that needs a webdesigner? Then you have found the right place! Trnslation for english, german, norwegian, 
       russian and ukrainian at reasonable rates.`,
       imgSrc: '/static/images/time-machine.jpg',
