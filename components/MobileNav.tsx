@@ -5,7 +5,10 @@ import { Fragment, useState } from 'react'
 import Link from './Link'
 import headerNavLinks from '@/data/headerNavLinks'
 
+import useTranslation from 'next-translate/useTranslation'
+
 const MobileNav = () => {
+  const { t } = useTranslation()
   const [navShow, setNavShow] = useState(false)
 
   const onToggleNav = () => {
