@@ -10,7 +10,7 @@ We rent their grounds for our circus project in a circustent. If you also want t
     {
       title: 'Translation services and webdsign',
       description: `Are you looking for dedicated, qualified and skilled translators who have a good eye for detail!
-      shrinks from tight deadlines? Do you have a webdesign project that needs a webdesigner? Then you have found the right place! Trnslation for english, german, norwegian, 
+      Who does not shrink from tight deadlines? Do you have a webdesign project that needs a webdesigner? Then you have found the right place! Trnslation for english, german, norwegian, 
       russian and ukrainian at reasonable rates.`,
       imgSrc: '/static/images/time-machine.jpg',
       href: '/blog/the-time-machine',
@@ -27,7 +27,7 @@ Vi kan bruke deres grunn til vårt sirkusprosjekt i circustent, som kommer veldi
     {
       title: 'Translation services and webdsign',
       description: ``Ser du etter en dedikert, kvalifisert og dyktig oversettere som har et godt øye for detaljer!
-      krymper fra stramme tidsfrister? Har du et webdesignprosjekt som trenger en webdesigner? Da har du funnet rett 
+      Noen som vil ikke krymper fra stramme tidsfrister? Har du et webdesignprosjekt som trenger en webdesigner? Da har du funnet rett 
       sted! Oversettelse for engelsk, tysk, norsk, russisk og ukrainsk til rimelige priser.`,
       imgSrc: '/static/images/time-machine.jpg',
       href: '/blog/the-time-machine',
