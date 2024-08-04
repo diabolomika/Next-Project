@@ -1,1 +1,72 @@
+---
+title: 'Release of Nextjs Blog - How to learn Norwegian on the C1 level'
+date: '2023-08-05'
+lastmod: '2023-08-05'
+tags: ['next-js', 'norwegian C1 guide', 'Laer Norsk C1', 'feature', 'dansk']
+draft: false
+summary: 'Release of a blog for language learners of Norwegian on a high level of B2 and especially C1, I used this 
+beautiful Nextjs App template with React Server Components setup. Discover how to speed up your learning and get to the level of C1.'
+images: ['/static/images/twitter-card.png']
+---
 
+## Introduction
+
+Velkom! For å klare å oppnå B2- eller C1-nivå i norsk, må du jobbet målrettet og strukturert (helst fra første dag). Hvis du har hoert at du må gå på kurs for a 
+lære grammatikk for å oppnå skriftlig og muntlig B2- eller C1-nivå, vil jeg klarstelle fakta. Jeg har laert norsk paa hoyt nivaa uten kurset. Et kurs hjelper a holde paa fokuset, men hvis du er veldig self-motivert og har noen som kan redigere skriving din og du liker a leser boeker der er det mulig a laere 'On your own'. For skriving oevelse kan du bruker KI, den gode venn fra norge eller du betale noen som snakker norsk som morsmal og kan skrive paa akademisk nivaa! 
+
+
+<TOCInline toc={props.toc} exclude="Introduction" />
+
+## The method the CIA uses
+
+![Github Traffic](/static/images/github-traffic.png)
+
+
+
+<video controls>
+  <source
+    src="https://github-production-user-asset-6210df.s3.amazonaws.com/28362229/258559849-2124c81f-b99d-4431-839c-347e01a2616c.webm"
+    type="video/webm"
+  />
+</video>
+
+
+Let's dive into the time frame.
+
+Fra b1 til C1 bør det være rundt 350 til 400 timers innsats - disse kan og må brukes på forskjellige måter:
+- se norske filmer/serier (i begynnelsen med undertekster)
+– Norsk musikk
+- skrive norske tekster (profesjonelle og private)
+- lese norske tekster og bøker
+- Snakk (snakk og skriv) på norsk med en som snakker norsk som morsmål!
+- Lær ordforråd, grammatikk og idiomer
+
+Så det kan definitivt gjøres på 1 til 2 år
+Jeg forbedrer norsken min ved å lese norske bøker. Jeg legger så inn ukjente ord i en ordbok for å lære. Noen ganger kjøper jeg billige brukte lydbøker. Min venn John Nations sverger til Harry Potter-lydbøker. Hvis du vil gjøre ting litt enklere, er ungdomsbøker en god måte å ta steget fra A2 til B1, fordi de vanligvis ikke inneholder veldig vanskelig ordforråd. Ungdomsbøker egner seg imidlertid ikke godt til læring for C1.
+For tyskere  og nederlendere eller noen som snakker engelsk eller tysk paa C1 nivaa  vil du være på nivå B1 etter omtrent et år.  Som tysker har du flere problemer med riktig setningsstruktur fordi på tysk setter du verbet på slutten. 
+
+-- 
+null
+
+
+## Hvordan jeg begynte med norsk
+Jeg begynte med dansk A1/A2 for mange år siden. Jeg var på universitetet og hadde akkurat vært på Island, Finland og Farøy oyene. Siden jeg  kom nest til aldri på kurset på grunn av tidsnød, lærte jeg nesten alt fra boken og CD-en. Men jeg kunne egentlig ikke snakke så mye, jeg kunne bestille en kafe og en kake og spor hvis de liker a gjoer noenting i fritid (Leider du at sejle?) eller spor for Lufthavn. 
+
+Jeg prøvde også å lære finsk paa Universitet, men ga opp etter 3 uker og gikk over til fransk, noe jeg allerede til en viss grad kunne.
+Jeg var i Lillehammr, Norge for fire uker. Siden jeg studerte Kroppsoving hadde jeg praksisseminar nordisk skiing langrenn. Senere, etter å ha bodd i USA i 15 år, besøkte jeg Faroey oyene..3 aar senere besokte jeg en venn i Norge og bestimmte a laere norsk i steden av dansk, mot min kjaereste og resten er historie...
+
+For oevelse anbefale jeg a ser paa serier (f.eks. Lilyhammer) og Videor på norsk. Hvis jeg ikke kan et ord, slår jeg det opp umiddelbart og skriver det ned i boken min. 
+
+
+
+
+## Om denne bloggen -migrert fra Javascript til Typescript
+
+Akkurat tar jeg en utdanning i IT. Denne blogg har en codebase. Tidligere versionen av dene bloggen hadde bade Javascript og Typescript. Type checking og code completion i IDEs er mye bedre med Typescript. Derfor denne bloggen har ingen JS Code lenger. Hvis du vil har mer informasjon om denne bloggen jeg vil gjerne gi deg lit mer informasjon om denne bloggen lagt med Next.Js
+
+Typescript er ogsaa en perfect match for den nye type-safe markdown processor - Contentlayer.
+
+## Contentlayer
+[Contentlayer](https://www.contentlayer.dev/) er en innholds-SDK som validerer og transformerer innholdet ditt til typesikre JSON-data som du enkelt kan importere til applikasjonen din. Det gjør det enkelt å jobbe med lokal markdown eller MDX-filer. Dette erstatter `MDX-bundler` og vår egen arbeidsflyt for markdown-behandling.
+
+Først defineres en innholdskilde, som spesifiserer navnet på dokumenttypen, kilden der den er plassert sammen med frontmatter-feltene og eventuelle ekstra beregnede felt som skal genereres som en del av prosessen.
