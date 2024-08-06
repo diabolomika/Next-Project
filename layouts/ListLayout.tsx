@@ -3,11 +3,13 @@
 import { useState } from 'react'
 import { usePathname } from 'next/navigation'
 import { formatDate } from 'pliny/utils/formatDate'
+import useTranslation from 'next-translate/useTranslation'
 import { CoreContent } from 'pliny/utils/contentlayer'
 import type { Blog } from 'contentlayer/generated'
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
+import { useRouter } from 'next/router'
 
 interface PaginationProps {
   totalPages: number
@@ -25,6 +27,20 @@ function Pagination({ totalPages, currentPage }: PaginationProps) {
   const basePath = pathname.split('/')[1]
   const prevPage = currentPage - 1 > 0
   const nextPage = currentPage + 1 <= totalPages
+
+  export default function ListLayout({ posts, title, initialDisplayPosts = [], pagination }) {
+  const [searchValue, setSearchValue] = useState('')
+  const filteredBlogPosts = posts.filter((frontMatter) => {
+    const searchContent = frontMatter.title + frontMatter.summary + frontMatter.tags.join(' ')
+    return searchContent.toLowerCase().includes(searchValue.toLowerCase())
+  })
+
+  const { t } = useTranslation()
+  const { locale } = useRouter()
+
+  // If initialDisplayPosts exist, display it if no searchValue is specified
+  const displayPosts =
+    initialDisplayPosts.length > 0 && !searchValue ? initialDisplayPosts : filteredBlogPosts
 
   return (
     <div className="space-y-2 pb-8 pt-6 md:space-y-5">
