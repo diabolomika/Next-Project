@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import fetcher from "lib/fetcher";
+import fetcher from "app/fetcher";
 import useSWR from "swr";
 import { motion } from "framer-motion";
 
