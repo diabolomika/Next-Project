@@ -1,0 +1,10 @@
+{
+  "mail": "Mailadresse",
+  "title": "Abonner på nyhetsbrevet",
+  "messageError": "E-postadressen din er ugyldig eller allerede registrert!",
+  "messageSuccess": "Suksess! Du abonnerer nå. 🎉",
+  "placeholderSucces": "Du er registrert! 🎉",
+  "placeholderDefault": "Skriv inn e-postadressen din",
+  "buttonSuccess": "Takk!",
+  "buttonDefault": "Registrer deg"
+}
